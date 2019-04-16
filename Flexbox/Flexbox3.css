@@ -1,0 +1,112 @@
+
+
+* {
+box-sizing: border-box;
+}
+
+body 
+{
+font-family: Arial, Helvetica, sans-serif;
+background-color: #B0E0E6;
+
+}
+
+/* Style of the header */
+header 
+{
+background-color: #0000CD;
+padding: 20px;
+text-align: center;
+font-size: 35px;
+color: white;
+}
+
+/* Container for flexboxes */
+section 
+{
+display: -webkit-flex;
+display: flex;
+}
+
+/* Style of the navigation menu */
+nav 
+{
+flex: 1;
+background: #FFD700;
+padding: 40px;
+}
+
+/* Style of the list inside the menu */
+nav ul 
+{
+list-style-type: none;
+padding: 0;
+}
+
+/* Style of the content */
+article 
+{
+flex: 3;
+background-color: #FF6347;
+padding: 30px;
+}
+
+/* Style of the footer */
+footer 
+{
+background-color: #87CEEB;
+padding: 20px;
+text-align: center;
+color: white;
+}
+
+/*Media query for Desktop/Laptop Display*/
+@media only screen and (min-width: 64em)
+{
+/* #Image{  width:37.5px;}	 */
+}
+
+{
+section 
+
+{
+-webkit-flex-direction: column;
+flex-direction: column;
+
+
+}
+}
+
+/*Media query for Smartphone devices*/
+@media only screen and (max-width: 37.5em)
+{
+/* #Image{  width:37.5px;} */
+}
+
+
+/* Style of the Image */
+Image{
+{
+background-color: #0000CD;
+padding: 20px;
+text-align: center;
+font-size: 35px;
+color: white;
+}
+
+.imgbox
+{
+display: grid;
+height: 25%;
+
+}
+.center-fit
+{
+max-width: 25%;
+max-height: 25vh;
+margin: auto;	
+}
+
+
+
+
